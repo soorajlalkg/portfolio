@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 export default function SectionWrapper({
   children,
   id,
@@ -10,15 +8,8 @@ export default function SectionWrapper({
   id?: string;
 }) {
   return (
-    <motion.section
-      id={id}
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="py-20"
-    >
+    <section id={id} className="py-20">
       {children}
-    </motion.section>
+    </section>
   );
 }
