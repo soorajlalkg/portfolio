@@ -53,6 +53,8 @@ export const projects = [
          "TypeScript",
          "React.js",
          "PostgreSQL",
+         "AWS ECS",
+         "AWS ECR",
          "REST APIs",
          "Microservices",
          "Fintech Domain",
