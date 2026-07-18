@@ -39,6 +39,8 @@ const skillGroups = [
       "AWS ECR",
       "AWS ECS Fargate",
       "AWS IAM",
+      "AWS ElastiIP",
+      "AWS Route 53",
       "Azure Functions",
       "Azure Event Hubs",
       "Azure Service Bus",
